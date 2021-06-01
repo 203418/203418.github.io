@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e8e8e8;
+    font-size: 16px;
+}
+.redes{
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    position: relative;
+}
+header{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+header .imagen{
+    width: 90px;
+    position: absolute;
+    display: block;
+    top:50%;
+    transform: translateY(-51%);
+    left: 1.3%;
+    overflow: hidden;
+}
+.titulo{
+    display: inline-block;
+    color: #000;
+    position: absolute;
+    width: 100%;
+    vertical-align: middle;
+    bottom: 50%;
+    left: 50%;
+    transform: translatex(-42%);
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.menu li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+main{
+    width: 70%;
+    background-color: #fff;
+    position: relative;
+    border-top: 2px solid #161f26;
+    left: 49.6%;
+    transform: translateX(-28%);
+}
+main .imagen{
+    width: 100%;
+}
+main .imagen img{
+    width: 100%;
+}
+main .margen{
+    margin-top: 20px;
+}
+main article{
+    padding: 7px 40px;
+}
+main .entrada1 article h1,h2{
+    margin-left: 20px;
+    color: #424242;
+    font-size: 1.5rem;
+}
+main .entrada1 article h3{
+    margin-left: 20px;
+    color: #424242;
+    font-size: 1.3rem;
+}
+main .entrada1 .articulo ul {
+    margin: 0 0 15px 20px;
+    text-align: justify;
+    margin-bottom: 7px;
+    line-height: 27px;
+}
+main .entrada1 article span,h4{
+    font-weight: bold;
+}
+main .entrada1 .articulo p{
+    text-align: justify;
+    margin-bottom: 7px;
+    line-height: 27px;
+}
+main .entrada1 .imagenA{
+    display: block;
+    margin: 0px auto;
+}
+main .entrada1 .articulo .enlaces{
+    padding: 0 40px;
+}
+main .entrada1 .articulo .enlaces li{
+    list-style:none;
+    margin: 5px;
+}
+main .entrada1 .articulo .enlaces li a{
+    text-decoration:none;
+    color: #c98746;
+    font-size: 18px;
+}
+main iframe{
+    left: 50%;
+}
+aside{
+    position: absolute;
+    top: 0%;
+    transform: translateY(14.27%);
+    width: 30%;
+    background-color: #161f26;
+    padding: 20px;
+    color: #fff;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .Titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: #8f8f8f;
+}
+aside .widget p{
+    line-height: 27px;
+}
+footer{
+    clear: both;
+    width: 70%;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+}

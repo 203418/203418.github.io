@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #e8e8e8;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    position: relative;
+}
+header{
+    background-color:#fff;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+header .imagen{
+    width: 7%;
+    position: absolute;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.titulo{
+    display: inline-block;
+    color: #000;
+    position: absolute;
+    width: 100%;
+    vertical-align: middle;
+    bottom: 50%;
+    left: 50%;
+    transform: translatex(-42%);
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.menu li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+main{
+    position: relative;
+    left: 49.6%;
+    transform: translateX(-28%);
+    width: 70%;
+    background-color: #000;
+    border-top: 2px solid #161f26;
+}
+main .galeria img{
+    display: inline-block;
+    width: 46%;
+    padding: 20px;
+    margin: auto 10px;
+    opacity: 0.5;
+}
+main .galeria img:hover{
+    opacity: 1;
+}
+aside{
+    position: absolute;
+    width: 30%;
+    background-color: #161f26;
+    padding: 20px;
+    color: #fff;
+    top: 0%;
+    transform: translateY(15.1%);
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .Titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    color: #8f8f8f;
+}
+aside .widget p{
+    line-height: 27px;
+}
+footer{
+    clear: both;
+    width: 70%;
+    float: right;
+    background-color: #30638E;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    overflow: hidden;
+}
+@media screen and (max-width:862px){
+    header .imagen {
+        width: 10%;
+    }
+    header .titulo{
+        font-size: 16px;
+    }
+    
+    main{
+        float:left;
+        width: 100%;
+    }
+    aside{
+        float: left;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    main iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:686px){
+    header .menu{
+        left: 60%;
+    }
+    header .menu li a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:492px){
+    main .entrada1 .articulo img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:380px){
+    header .menu{
+        left: 60%;
+    }
+    header .menu li a{
+        font-size: 12px;
+    }
+}
