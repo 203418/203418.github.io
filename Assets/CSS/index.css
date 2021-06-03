@@ -7,17 +7,15 @@ body{
     font-family: 'Arial', sans-serif;
     background-color: #e8e8e8;
     font-size: 16px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    position: relative;
 }
 .redes{
     display: inline-block;
     position: absolute;
     bottom: 50%;
-}
-.contenedor{
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    position: relative;
 }
 header{
     background-color:rgb(255, 255, 255);
